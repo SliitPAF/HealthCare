@@ -1,0 +1,75 @@
+@charset "ISO-8859-1";
+
+.header {
+	margin-top : -10px;
+}
+
+.navbar-brand {
+	margin-top : 0px;
+	font-family : Raleway;
+	padding : 0;
+	font-size : 25px;
+	text-transform : Uppercase;
+}
+
+.navbar-nav {
+  overflow: hidden;
+  background-color: #00000;
+}
+
+.nav-item .nav-link {
+  display: block;
+  color: gray;
+  text-decoration: none;
+  padding : 0;
+}
+
+
+.nav-item .link {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  font-size : 18px;
+  
+}
+
+.nav-item .nav-link:hover {
+	color: #ffffff;
+  background-color : gray;
+}
+
+.nav-link{
+	font-family : Raleway;
+	color : gray;
+	font-size : 18px;
+	text-transform : Uppercase;
+	border: 1px solid #bbb;
+	margin-left : 8px;
+	
+}
+
+.navbar-custom{
+	margin-top : 0px;
+	height : 40px;
+	background-color : #000000;
+	
+}
+
+.navbar-colopse{
+	margin-top : 0px;
+	background-color : #ffffff;
+	
+}
+
+.navbar-toggler{
+	margin-top : -15px;
+}
+
+.btn{
+	font-family : Poppins;
+	font-size : 14px;
+}
+
+.form-control{
+	font-family : Poppins;
+}

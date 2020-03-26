@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+
+.nav-item .logout:hover {
+	color : red;
+}  
+
+.nav-item .logout {
+	
+	TEXT-DECORATION: none;
+	font-family : poppins;
+	color : #000; 
+	font-size : 15px; 
+	text-transform : capitalize;
+}

@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+
+.bodyAdmin{
+	background-color: #48CCCD;
+	margin-left : 0;
+}
+h3 {
+	color : #000000;
+	font-family : Raleway;
+	text-transform : uppercase;
+}
+
+.table{
+	font-family : poppins;
+}
+
