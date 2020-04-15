@@ -6,7 +6,8 @@ public class CardPayment {
 	private String creditCardNumber;
 	private float amount;
 	private int cvc;
-	private String cardHolderName;
+	private String cardHolderFName;
+	private String cardHolderLName;
 	
 	public CardPayment(){
 		
@@ -30,11 +31,17 @@ public class CardPayment {
 	public void setCvc(int cvc) {
 		this.cvc = cvc;
 	}
-	public String getCardHolderName() {
-		return cardHolderName;
+	public String getCardHolderFName() {
+		return cardHolderFName;
 	}
-	public void setCardHolderName(String cardHolderName) {
-		this.cardHolderName = cardHolderName;
+	public void setCardHolderFName(String cardHolderFName) {
+		this.cardHolderFName = cardHolderFName;
+	}
+	public String getCardHolderLName() {
+		return cardHolderLName;
+	}
+	public void setCardHolderLName(String cardHolderLName) {
+		this.cardHolderLName = cardHolderLName;
 	}
 	
 }
