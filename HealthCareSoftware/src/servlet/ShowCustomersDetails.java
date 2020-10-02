@@ -51,5 +51,7 @@ public class ShowCustomersDetails extends HttpServlet {
 		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("Customer.jsp");
 		dispatcher.forward(request, response);
 	}
+	
+	
 
 }
